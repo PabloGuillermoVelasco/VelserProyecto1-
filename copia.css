@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.border_logos {
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+.imagenPortada {
+    margin: px;
+    padding: 3px;
+    border-radius: 50px;
+}
+
+<<<<<<< HEAD
+
+=======
+hr {
+    margin: 10px;
+    border: 1px solid;
+    color: rgb(255, 255, 255)
+}
+>>>>>>> 2ceb0dc183bca65964c29601b568f934ca1a2e4b
+
+.carouselSize{
+    height: 700px;
+}
+
+.carouselImg{
+    height: 700px;
+}
+
+.imgNoticia{
+    width: 900px;
+    height: 500px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 3px solid white;
+    justify-content: center;
+}
+
+.textoNoticia{
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+}

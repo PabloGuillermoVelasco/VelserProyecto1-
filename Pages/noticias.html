@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velser</title>
+    <link rel="shortcut icon" href="./Assets/Imagenes/mini_Velser Logo.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap" rel="stylesheet">
+    <!--CDN fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--CDN Bootswatch-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/cyborg/bootstrap.min.css"
+        integrity="sha384-nEnU7Ae+3lD52AK+RGNzgieBWMnEfgTbRHIwEvp1XXPdqdO6uLTd/NwXbzboqjc2" crossorigin="anonymous">
+    <!--Mi CSS-->
+    <link rel="stylesheet" href="../Css/style.css">
+</head>
+
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"></a>
+                <img src="../Assets/img/Logos/Velser_Logo.jpeg" class="border_logos img-fluid" alt="Bootstrap"
+                    width="80" height="65">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+                    aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor02">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio
+                                <span class="visually-hidden"></span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Pages/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Pages/galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../Pages/noticias.html">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Pages/ubicacion.html">Ubicación</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Button trigger modal -->
+            <div class="justify-content-end">
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Solicita tu presupuesto
+                </button>
+            </div>
+            </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-center modal-title fs-5" id="exampleModalLabel">Velser - Presupuesto</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre y apellido</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Guillermo Velasco">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="suemail@gmail.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Teléfono de contacto</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Sin el 0 ni el 15">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Su mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Comentanos tu problema, pasanos medidas y si podes adjuntanos fotos y/o videos. Ya que mientras mas datos tengamos mejor podemos presupuestarte el trabajo."></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-danger">Adjuntar</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-danger">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <img src="../Assets/img/Noticias/noticias.jpg" class="imgInicio" alt="">
+    </div>
+    <div class="text-center">
+    <h4>Aquí encontrarás muchas información, curiosidades, sugerencias y, por supuesto, consejos que
+        te ayudarán a ahorrar tiempo y dinero.</h4>
+    </div>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 sm-0 d-flex justify-content-center">
+                    <div class="card text-white bg-info noticia mx-auto wow animate__animated animate__slideInLeft">
+                        <img src="../Assets/img/Noticias/Pileta.jpeg" class="card-img-top mx-auto img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Como pintar correctamente tu pileta</h5>
+                            <p class="card-text">Ya
+                                se
+                                acerca la temporada de calor y es tiempo de poner la pileta a punto para que
+                                esté lista para
+                                disfrutar. Si la pintura está en malas condiciones, el momento para pintar es ahora..
+                            </p>
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Leer mas</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 sm-0 d-flex justify-content-center">
+                    <div class="card text-white bg-info noticia mx-auto wow animate__animated animate__slideInRight">
+                        <img src="../Assets/img/Noticias/humedad_paredes.webp" class="card-img-top mx-auto img-fluid"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Tratamientos para la humedad</h5>
+                            <p class="card-text">Llega el
+                                invierno y la humedad, entonces te das cuenta que tus paredes necesitan
+                                algún
+                                tipo de mejora. Te contamos distintas maneras para que puedas combatir la
+                                humedad de las
+                                paredes.
+                            </p>
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Leer mas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 sm-0 d-flex justify-content-center">
+                    <div class="card text-white bg-info noticia mx-auto wow animate__animated animate__slideInLeft">
+                        <img src="../Assets/img/Noticias/biofilia.png" class="card-img-top mx-auto img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Biofilia</h5>
+                            <p class="card-text">Querés conectarte con la naturaleza? El diseño biofílico es un concepto
+                                que
+                                expresa el
+                                amor a las
+                                cosas vivientes y busca conectar con el medio ambiente. Te contamos cómo
+                                aplicarlo en la
+                                decoración
+                                de tu hogar.
+                            </p>
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Leer mas</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 sm-0 d-flex justify-content-center">
+                    <div class="card text-white bg-info noticia mx-auto wow animate__animated animate__slideInRight">
+                        <img src="../Assets/img/Noticias/Iluminacion.jpg" class="card-img-top mx-auto img-fluid"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Iluminación en tus ambientes</h5>
+                            <p class="card-text">La luz es
+                                necesaria para poder habitar nuestros espacios. La gran protagonista es la
+                                claridad
+                                natural,
+                                pero también se puede incorporar de manera artificial para potenciarla y
+                                lograr una
+                                correcta
+                                combinación.
+                            </p>
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Leer mas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 sm-0 d-flex justify-content-center">
+                    <div class="card text-white bg-info noticia mx-auto wow animate__animated animate__slideInLeft">
+                        <img src="../Assets/img/Noticias/azulejos.jpg" class="card-img-top mx-auto img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Renová facillmente tus azulejos</h5>
+                            <p class="card-text">La pintura de azulejos es una alternativa práctica para aquellos que no quieren reformar, la pintura de azulejos aporta un resultado totalmente diferente. Aquí te lo mostramos.
+                            </p>
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Leer mas</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 sm-0 d-flex justify-content-center">
+                    <div class="card text-white bg-info noticia mx-auto wow animate__animated animate__slideInRight">
+                        <img src="../Assets/img/Noticias/espatula.jpg" class="card-img-top mx-auto img-fluid"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Preparando las paredes antes de pintar</h5>
+                            <p class="card-text">Independientemente del material a pintar (o repintar) y el proceso utilizado, el buen trabajo siempre comienza con la preparación correcta de la superficie. Este paso asegurará la durabilidad y el acabado perfecto del servicio, evitando muchos problemas futuros.
+                            </p>
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Leer mas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <hr>
+    <footer>
+        <div class="d-flex justify-content-around">
+            <i class="fa-brands fa-whatsapp fa-beat-fade fa-3x"></i>
+            <i class="fa-brands fa-facebook fa-beat-fade fa-3x"></i>
+            <i class="fa-brands fa-instagram fa-beat-fade fa-3x"></i>
+        </div>
+        <hr>
+        <p class="text-center">Copyright © 2022 Velser Servicios Integrales. Todos los derechos reservados.
+            Desarrollo
+            Guillermo Velasco
+        </p>
+    </footer>
+
+    <!--CDN Animaciones-->
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!--CDN BS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

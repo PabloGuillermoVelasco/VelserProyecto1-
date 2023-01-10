@@ -1,0 +1,46 @@
+<<<<<<< HEAD
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.imgInicio {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 5px; }
+
+hr {
+  margin: 10px;
+  border: 1px solid;
+  color: white; }
+
+.text-center {
+  margin: 10px; }
+
+.hh4 {
+  width: 70%; }
+
+.card {
+  margin: 15px; }
+
+.card-text {
+  justify-content: center; }
+
+.noticia {
+  width: x; }
+  .noticia img {
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px; }
+
+body {
+  background-color: #241230; }
+=======
+>>>>>>> 2ceb0dc183bca65964c29601b568f934ca1a2e4b
