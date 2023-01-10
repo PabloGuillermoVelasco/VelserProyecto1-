@@ -33,19 +33,4 @@ hr {
     height: 700px;
 }
 
-.imgNoticia{
-    width: 900px;
-    height: 500px;
-    margin: 20px;
-    padding: 10px;
-    border-radius: 50px;
-    border: 3px solid white;
-    justify-content: center;
-}
 
-.textoNoticia{
-    font-style: italic;
-    justify-content: center;
-    align-items: center;
-    margin:20px;
-}
