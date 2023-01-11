@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Velser</title>
-    <link rel="shortcut icon" href="./Assets/Imagenes/mini_Velser Logo.jpeg">
+    <title>Velser - Galería</title>
+    <link rel="shortcut icon" href="../Assets/img/Logos/Velser_Logo.jpeg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,13 +20,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/cyborg/bootstrap.min.css"
         integrity="sha384-nEnU7Ae+3lD52AK+RGNzgieBWMnEfgTbRHIwEvp1XXPdqdO6uLTd/NwXbzboqjc2" crossorigin="anonymous">
     <!--Mi CSS-->
-    <link rel="stylesheet" href="../Css/style.css">
+    <link rel="stylesheet" href="../Css/main.css">
 </head>
 <main>
     <header class="sticky-top">
         <nav class="navbar navbar-expand-lg navbar-dark bg-info">
             <div class="container-fluid">
-                <img src="../Assets/img/Logos/Velser_Logo.jpeg" class="border_logos img-fluid" alt="Bootstrap"
+                <a class="navbar-brand" href="../index.html"></a>
+                <img src="../Assets/img/Logos/Velser_Logo.jpeg" class="border_logos img-fluid" alt="logovelser"
                     width="80" height="65">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
                     aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,21 +36,26 @@
                 <div class="collapse navbar-collapse" id="navbarColor02">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="../index.html">Inicio
+                            <a class="nav-link" href="../index.html">
+                                <p class="font-weight-bold">Inicio
                                 <span class="visually-hidden"></span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../Pages/servicios.html">Servicios</a>
+                            <a class="nav-link" href="../Pages/servicios.html">
+                                <p class="font-weight-bold">Servicios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="../Pages/galeria.html">Galeria</a>
+                            <a class="nav-link" href="../Pages/galeria.html">
+                                <p class="font-weight-bold">Galeria</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../Pages/noticias.html">Noticias</a>
+                            <a class="nav-link" href="../Pages/noticias.html">
+                                <p class="font-weight-bold">Noticias</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../Pages/ubicacion.html">Ubicación</a>
+                            <a class="nav-link active" href="../Pages/ubicacion.html">
+                                <p class="font-weight-bold">Ubicación</a>
                         </li>
                     </ul>
                 </div>
@@ -57,7 +63,7 @@
             <!-- Button trigger modal -->
             <div class="justify-content-end">
                 <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Solicita tu presupuesto
+                    <p class="font-weight-bold text-center">Solicita tu presupuesto</p>
                 </button>
             </div>
             </div>
@@ -107,40 +113,48 @@
 
 
     <main>
-        <section>
-            <h4 class="text-center p-4">En nuestra galeria vas a comprobar nuestra seriedad y compromiso al contratarnos
-            </h4>
+
+    <!--Portada-->
+    <div>
+        <img src="../Assets/img/Galeria/obras.jpg" class="imgInicio img-fluid" alt="portadanoticias">
+    </div>
+    <h1 class="text-center infoTitulares">Galeria</h1>
+    <h5 class="textoNosotros text-center">Aquí vas a ver algunas de nuestras obras y comprobarás nuestra seriedad y compromiso al contratarnos</h5>
+    </div>
+
+        <section class="infoTitulares">
+
+        </section>
             <div id="carouselExampleSlidesOnly" class="carousel slide carouselSize" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active carouselImg  ">
-                        <img src="../Assets/img/Galeria/GalEpoxi3.jpeg" class="d-block w-100 carouselImg" alt="...">
+                        <img src="../Assets/img/Galeria/GalEpoxi3.jpeg" class="d-block w-100 carouselImg" alt="piso epoxi">
                     </div>
                     <div class="carousel-item carouselImg">
-                        <img src="../Assets/img/Galeria/GalImper2.jpeg" class="d-block w-100 carouselImg" alt="...">
+                        <img src="../Assets/img/Galeria/GalImper2.jpeg" class="d-block w-100 carouselImg" alt="techoimpermeabilizado">
                     </div>
                     <div class="carousel-item carouselImg">
-                        <img src="../Assets/img/Galeria/GalImper1.jpeg" class="d-block w-100 carouselImg" alt="...">
+                        <img src="../Assets/img/Galeria/GalImper1.jpeg" class="d-block w-100 carouselImg" alt="techoimpermeabilizado">
                     </div>
                     <div class="carousel-item carouselImg">
-                        <img src="../Assets/img/Galeria/GalEpoxi1.jpeg" class="d-block w-100 carouselImg" alt="...">
+                        <img src="../Assets/img/Galeria/GalEpoxi1.jpeg" class="d-block w-100 carouselImg" alt="demarcacionepoxi">
                     </div>
                     <div class="carousel-item carouselImg">
-                        <img src="../Assets/img/Galeria/GalInt.jpeg" class="d-block w-100 carouselImg" alt="...">
+                        <img src="../Assets/img/Galeria/GalInt.jpeg" class="d-block w-100 carouselImg" alt=".paredinteriornaranja">
                     </div>
                     <div class="carousel-item carouselImg">
-                        <img src="../Assets/img/Galeria/GalMicro.jpeg" class="d-block w-100 carouselImg" alt="...">
+                        <img src="../Assets/img/Galeria/GalMicro.jpeg" class="d-block w-100 carouselImg" alt="pisomicrocemento">
                     </div>
                     <div class="carousel-item carouselImg">
-                        <img src="../Assets/img/Galeria/GalPorc1.jpeg" class="d-block w-100 carouselImg" alt="...">
+                        <img src="../Assets/img/Galeria/GalPorc1.jpeg" class="d-block w-100 carouselImg" alt="pisoporcelanatoliquido">
                     </div>
                     <div class="carousel-item carouselImg">
-                        <img src="../Assets/img/Galeria/GalPorc3.jpeg" class="d-block w-100 carouselImg" alt="...">
+                        <img src="../Assets/img/Galeria/GalPorc3.jpeg" class="d-block w-100 carouselImg" alt="mesadaporcelanatoliquido">
                     </div>
                 </div>
             </div>
-        </section>
-        <hr>
     </main>
+    <hr>
 
     <footer>
         <div class="d-flex justify-content-around">

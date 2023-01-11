@@ -8,6 +8,20 @@ hr {
     margin: 10px;
 }
 
-.hh4{
-    width: 70%;
+.textoNosotros{
+    color: white;
+    padding: 2px;
+    margin: 10px;
+}
+
+.textoNosotros--titulo{
+    @extend .textoNosotros;
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+.infoTitulares{
+    background-color: $fourth;
+    border-radius: 50px;
 }
