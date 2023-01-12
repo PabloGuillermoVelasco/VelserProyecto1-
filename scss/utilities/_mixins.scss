@@ -1,9 +1,5 @@
-@mixin tamano ($ancho, $alto) {
-    width: $ancho;
-    height: $alto;
+@mixin sizes ($ancho, $alto) {
+    width:$ancho ;
+    height:$alto ;
 }
 
-$colores_extra:(
-    azul:rgba(98, 0, 255, 0.943)
-    violeta:rgb(178, 71, 232)
-)
