@@ -36,6 +36,15 @@
 .testimonio3 {
   background-color: #6d5b98; }
 
+.carouselImg {
+  height: 700px;
+  width: 1200px; }
+
+.carouselSize {
+  width: auto;
+  display: flex;
+  justify-content: center; }
+
 hr {
   margin: 10px;
   border: 1px solid;
@@ -57,6 +66,9 @@ hr {
 .infoTitulares {
   background-color: #6d5b98;
   border-radius: 50px; }
+
+.galeriaContacto {
+  display: flex; }
 
 .card {
   margin: 15px; }

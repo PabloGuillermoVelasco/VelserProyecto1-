@@ -37,3 +37,13 @@
 .testimonio3{
     background-color: $fourth;
 }
+
+.carouselImg{
+@include tamano (1200px,700px)
+}
+
+.carouselSize{
+    width: auto;
+    display: flex;
+    justify-content: center;
+}

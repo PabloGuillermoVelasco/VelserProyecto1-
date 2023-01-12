@@ -1,7 +1,6 @@
 hr {
     margin: 10px;
-    border: 1px solid;
-    color: rgb(255, 255, 255)
+    border: $border;
 }
 
 .text-center{
@@ -24,4 +23,8 @@ hr {
 .infoTitulares{
     background-color: $fourth;
     border-radius: 50px;
+}
+
+.galeriaContacto{
+    display: flex;
 }
