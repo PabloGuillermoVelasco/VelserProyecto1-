@@ -38,8 +38,6 @@
     background-color: $fourth;
 }
 
-@use "../utilities/mixins";
-
 .carouselImg{
 @include sizes (1200px,700px)
 }

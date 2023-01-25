@@ -11,6 +11,8 @@ hr {
     color: white;
     padding: 2px;
     margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700
 }
 
 .textoNosotros--titulo{
@@ -27,4 +29,8 @@ hr {
 
 .galeriaContacto{
     display: flex;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
 }

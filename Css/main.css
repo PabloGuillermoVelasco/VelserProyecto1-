@@ -37,8 +37,8 @@
   background-color: #6d5b98; }
 
 .carouselImg {
-  height: 700px;
-  width: 1200px; }
+  width: 1200px;
+  height: 700px; }
 
 .carouselSize {
   width: auto;
@@ -47,8 +47,7 @@
 
 hr {
   margin: 10px;
-  border: 1px solid;
-  color: white; }
+  border: solid 2px white; }
 
 .text-center {
   margin: 10px; }
@@ -56,7 +55,9 @@ hr {
 .textoNosotros, .textoNosotros--titulo {
   color: white;
   padding: 2px;
-  margin: 10px; }
+  margin: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700; }
 
 .textoNosotros--titulo {
   font-weight: bold;
@@ -70,6 +71,9 @@ hr {
 .galeriaContacto {
   display: flex; }
 
+p {
+  font-family: 'Roboto', sans-serif; }
+
 .card {
   margin: 15px; }
 
@@ -77,7 +81,8 @@ hr {
   justify-content: center; }
 
 .noticia {
-  width: x; }
+  margin: 10px;
+  padding: 10px; }
   .noticia img {
     width: 500px;
     height: 250px;
@@ -88,8 +93,8 @@ hr {
     margin-right: 10px;
     border-radius: 5px; }
 
-.cardUbicacion {
-  background-color: #241230; }
-
 body {
   background-color: #241230; }
+
+h1 {
+  font-family: 'Roboto', sans-serif; }
