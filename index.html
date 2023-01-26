@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Servicios de pintura, porcelanato liquido, microcementos. Garantia de trabajo.">
+    <meta name="keywords" content="pintor, garantia, sinteplast, sika, rust, oleum, alba">
+
+    <title>Velser</title>
+    <link rel="shortcut icon" href="./Assets/img/Logos/Velser_Logo.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap" rel="stylesheet">
+    <!--CDN fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--CDN Bootswatch-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/cyborg/bootstrap.min.css"
+        integrity="sha384-nEnU7Ae+3lD52AK+RGNzgieBWMnEfgTbRHIwEvp1XXPdqdO6uLTd/NwXbzboqjc2" crossorigin="anonymous">
+    <!--Mi CSS-->
+    <link rel="stylesheet" href="./Css/main.css">
+</head>
+
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"></a>
+                <a href="./index.html"><img src="./Assets/img/Logos/velser_Logo.jpeg" class="border_logos img-fluid" alt="logovelser"
+                    width="80" height="65"></img></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+                    aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor02">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./index.html">
+                                <p class="font-weight-bold">Inicio
+                                    <span class="visually-hidden"></span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Pages/servicios.html">
+                                <p class="font-weight-bold">Servicios
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Pages/galeria.html">
+                                <p class="font-weight-bold">Galeria
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Pages/noticias.html">
+                                <p class="font-weight-bold">Noticias
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Pages/ubicacion.html">
+                                <p class="font-weight-bold">Ubicación
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Button trigger modal -->
+            <div class="justify-content-end">
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <p class="font-weight-bold text-center">Solicita tu presupuesto</p>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-center modal-title fs-5" id="exampleModalLabel">Velser - Contacto</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre y apellido</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Guillermo Velasco">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="suemail@gmail.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Teléfono de contacto</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Sin el 0 ni el 15">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Su mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Comentanos tu problema, pasanos medidas y si podes adjuntanos fotos y/o videos. Ya que mientras mas datos tengamos mejor podemos presupuestarte el trabajo."></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-danger">Adjuntar</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-danger">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <main>
+        <div>
+            <img src="./Assets/img/Logos/velser_portada.png" class="img-fluid imgInicio" alt="imagenportada">
+        </div>
+        <h1 class="text-center infoTitulares">Velser - Servicios integrales</h1>
+        <hr>
+        <div>
+            <p class="textoNosotros--titulo">Sobre nosotros</p>
+            <p class="textoNosotros">
+                Somos una empresa joven de Resistencia especializados en tratamientos para la humedad e
+                impermeabilizaciones. Brindamos servicios de alta calidad, confiables y competitivos.
+                Nuestros trabajos de aplicación de pintura realizados le garantizan la utilización de
+                materia prima e insumos de primera calidad. Le garantizamos la más alta variedad de técnicas y
+                servicios.</p>
+
+            <p class="textoNosotros">
+                Desde el comienzo hemos trabajado con la misión de ofrecer un servicio de alta calidad a nuestros
+                clientes y con el objetivo claro de cubrir las necesidades que estos presentan.
+                Contamos con un staff de profesionales altamente capacitados. De esta forma podemos ofrecer un excelente
+                servicio actualizado, tanto en lo que respecta a la aplicación de productos nuevos como a la
+                implementación de nuevas y mejores técnicas de trabajo que dan perfectos resultados.
+                Nuestros clientes destacan por sobre todas las cosas, la calidad, la responsabilidad, la seriedad y la
+                honestidad a la hora de realizar cada tarea.
+
+        </div>
+    </main>
+    <hr>
+    <section>
+        <h4 class="text-center infoTitulares">Algunas marcas con las que trabajamos</h4>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 sm-0 d-flex justify-content-center">
+                    <img src="./Assets/img/Logos/logo_rust.png" class="imgMarcas border_logos mx-2 my-5 img-fluid"
+                        alt="logorustoleum">
+                </div>
+                <div class="col-md-3 col-sm-6 sm-0 d-flex justify-content-center">
+                    <img src="./Assets/img/Logos/logo_alba.png" class="imgMarcas border_logos mx-2 my-5 img-fluid" alt="logoalba">
+                </div>
+                <div class="col-md-3 col-sm-6 sm-0 d-flex justify-content-center">
+                    <img src="./Assets/img/Logos/logo_sinteplast.png" class="imgMarcas border_logos mx-2 my-5 img-fluid"
+                        alt="logosinteplast">
+                </div>
+                <div class="col-md-3 col-sm-6 sm-0 d-flex justify-content-center">
+                    <img src="./Assets/img/Logos/logo_sika.png" class="imgMarcas border_logos mx-2 my-5 img-fluid" alt="logosika">
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <h3 class="text-center">Testimonios</h3>
+    <!--Testimonios-->
+    <section>
+        <div class="row text-center d-flex align-items-stretch">
+            <div class="col-md-4 mb-5 mb-md-0 d-flex align-items-stretch">
+                <div class="card testimonial-card">
+                    <div class="card-up testimonio2"></div>
+                    <div class="avatar mx-auto bg-white">
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                            class="rounded-circle img-fluid" />
+                    </div>
+                    <div class="card-body">
+                        <h4 class="mb-4">Alexandra Ñutz</h4>
+                        <hr />
+                        <p class="text-white mt-4">
+                            <i class="fas fa-quote-left pe-2"></i>Excelente servicio, muy prolijos y sobre todo limpios.
+                            Seguramente volveremos a contratar sus servicios en el futuro.<i
+                                class="fa-solid fa-quote-right"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-5 mb-md-0 d-flex align-items-stretch">
+                <div class="card testimonial-card">
+                    <div class="card-up  testimonio1"></div>
+                    <div class="avatar mx-auto bg-white">
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                            class="rounded-circle img-fluid" />
+                    </div>
+                    <div class="card-body">
+                        <h4 class="mb-4">Milagros Ruiz</h4>
+                        <hr />
+                        <p class="text-white mt-4">
+                            <i class="fas fa-quote-left pe-2"></i>Muy buen servicio, la atención es genial y la pintura
+                            y demás materiales muy buenos.<i class="fa-solid fa-quote-right"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-0 d-flex align-items-stretch">
+                <div class="card testimonial-card">
+                    <div class="card-up testimonio3"></div>
+                    <div class="avatar mx-auto bg-white">
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+                            class="rounded-circle img-fluid" />
+                    </div>
+                    <div class="card-body">
+                        <h4 class="mb-4">Agustin Perez</h4>
+                        <hr />
+                        <p class="text-white mt-4">
+                            <i class="fas fa-quote-left pe-2"></i>Muy contento con sus servicios, buenos profesionales,
+                            responden perfectamente ante todas las incidencias y hacen un seguimiento perfecto del
+                            servicio. Si tengo que hacer otra obra contaré con ellos seguro<i
+                                class="fa-solid fa-quote-right"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <hr>
+    <footer>
+        <div class="d-flex justify-content-around">
+            <i class="fa-brands fa-whatsapp fa-beat-fade fa-3x"></i>
+            <i class="fa-brands fa-facebook fa-beat-fade fa-3x"></i>
+            <i class="fa-brands fa-instagram fa-beat-fade fa-3x"></i>
+        </div>
+        <hr>
+        <p class="text-center">Copyright © 2022 Velser Servicios Integrales. Todos los derechos reservados. Desarrollo
+            Guillermo Velasco</p>
+    </footer>
+
+    <!--CDN Animaciones-->
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!--CDN BS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
