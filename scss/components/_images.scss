@@ -11,6 +11,10 @@
     border: 2px solid $fifth;
 }
 
+.imgMarcas{
+    @include sizes (500px,200px)
+}
+
 .testimonial-card .card-up {
     height: 120px;
     overflow: hidden;
@@ -39,10 +43,13 @@
 }
 
 .carouselImg{
-@include sizes (1200px,700px)
+@include sizes (1600px,800px)
 }
 
-
+.carouselImgg{
+    width: 450px;
+    height: 800px;
+}
 
 .carouselSize{
     width: auto;

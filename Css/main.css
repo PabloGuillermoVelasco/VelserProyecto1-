@@ -14,6 +14,10 @@
   border-radius: 15px;
   border: 2px solid #f363f6; }
 
+.imgMarcas {
+  width: 500px;
+  height: 200px; }
+
 .testimonial-card .card-up {
   height: 120px;
   overflow: hidden;
@@ -37,8 +41,12 @@
   background-color: #6d5b98; }
 
 .carouselImg {
-  width: 1200px;
-  height: 700px; }
+  width: 1600px;
+  height: 800px; }
+
+.carouselImgg {
+  width: 450px;
+  height: 800px; }
 
 .carouselSize {
   width: auto;
