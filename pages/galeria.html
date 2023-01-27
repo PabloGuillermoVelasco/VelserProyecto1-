@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Galería de imagenes de obras realizadas Velser">
+    <meta name="keywords" content="trabajos, obras, confianza, trabajos,compromiso">
+    <title>Velser - Galería</title>
+    <link rel="shortcut icon" href="../assets/img/logos/velser_Logo.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap" rel="stylesheet">
+    <!--CDN fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--CDN Bootswatch-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/cyborg/bootstrap.min.css"
+        integrity="sha384-nEnU7Ae+3lD52AK+RGNzgieBWMnEfgTbRHIwEvp1XXPdqdO6uLTd/NwXbzboqjc2" crossorigin="anonymous">
+    <!--Mi CSS-->
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<main>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"></a>
+                <a href="../index.html"><img src="../Assets/img/Logos/velser_Logo.jpeg" class="border_logos img-fluid"
+                        alt="logovelser" width="80" height="65"></img></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+                    aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor02">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">
+                                <p class="font-weight-bold">Inicio
+                                    <span class="visually-hidden"></span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/servicios.html">
+                                <p class="font-weight-bold">Servicios
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../pages/galeria.html">
+                                <p class="font-weight-bold">Galeria
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/noticias.html">
+                                <p class="font-weight-bold">Noticias
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/ubicacion.html">
+                                <p class="font-weight-bold">Ubicación
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Button trigger modal -->
+            <div class="justify-content-end">
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <p class="font-weight-bold text-center">Solicita tu presupuesto</p>
+                </button>
+            </div>
+            </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-center modal-title fs-5" id="exampleModalLabel">Velser - Contacto</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre y apellido</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Guillermo Velasco">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="suemail@gmail.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Teléfono de contacto</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Sin el 0 ni el 15">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Su mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Comentanos tu problema, pasanos medidas y si podes adjuntanos fotos y/o videos. Ya que mientras mas datos tengamos mejor podemos presupuestarte el trabajo."></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-danger">Adjuntar</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-danger">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <main>
+        <!--Portada-->
+        <div>
+            <img src="../assets/img/galeria/obras.jpg" class="imgInicio img-fluid" alt="portadanoticias">
+        </div>
+        <h1 class="text-center infoTitulares">Galería</h1>
+        <h5 class="textoNosotros text-center">Aquí vas a ver algunas de nuestras obras y comprobarás nuestra seriedad y
+            compromiso al contratarnos</h5>
+        </div>
+    </main>
+
+
+    <!--galeria-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 sm-0 photo">
+                    <img src="../assets/img/galeria/mesa_porcelanato.jpg" alt="mesa de madera con porcelanato liquido"
+                        class="border_logos img-fluid mt-2">
+                </div>
+                <div class="col-lg-4 sm-0 photo">
+                    <img src="../assets/img/galeria/microcemento_porcelanato.jpg"
+                        alt="microcemento con porcelanato liquido" class="border_logos img-fluid mt-2">
+                </div>
+                <div class="col-lg-4 sm-0 photo">
+                    <img src="../assets/img/galeria/brillo_mesada_porcelanato.jpg"
+                        alt="brillo de mesada con porcelanato liquido" class="border_logos img-fluid mt-2">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 sm-0 photo">
+                    <img src="../assets/img/galeria/epoxi_shell.jpg" alt="Pintura en piso de estacion de servicio"
+                        class="border_logos img-fluid">
+                </div>
+                <div class="col-lg-4 sm-0 photo">
+                    <img src="../assets/img/galeria/epoxi_shell2.jpg" alt="Pintura en piso de estacion de servicio"
+                        class="border_logos img-fluid">
+                </div>
+                <div class="col-lg-4 sm-0 photo">
+                    <img src="../assets/img/galeria/microcemento_piso.jpg" alt="microcemento en piso"
+                        class="border_logos img-fluid">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 sm-0 photo">
+                    <img src="../assets/img/galeria/impermeabilizacion_losa.jpg" alt="impermeabilizacion en losa"
+                        class="border_logos img-fluid">
+                </div>
+                <div class="col-lg-4 sm-0 photo">
+                    <img src="../assets/img/galeria/impermeabilizacion_techo.jpg"
+                        alt="impermeabilizacion en techo de chapa" class="border_logos img-fluid">
+                </div>
+                <div class="col-lg-4 sm-0 photo">
+                    <img src="../assets/img/galeria/lineas_estacionamiento.jpg"
+                        alt="demarcacion de lineas de estacionamiento" class="border_logos img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+   <article> 
+    <div class="accordion m-3" id="accordionExample">
+        <div class="accordion-item">
+            <h4 class="accordion-header" id="headingOne">
+                <button class="accordion-button btn-info textoNosotros--titulo btn_galeria" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    ¿Cómo presupuestamos?
+                </button>
+            </h4>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body textoNosotros">
+                    En cada obra realizamos un estudio de presupuesto. Puede consultarnos sin ningún
+                    tipo de compromiso, en nuestra empresa encontrará asesoramiento, atención personalizada y con
+                    soluciones
+                    a su
+                    medida.
+                    Se presupuesta vía mail o presentando carpeta puede presupuestarse mano de obra y/o materiales sin
+                    costo
+                    alguno. En el caso de que el presupuesto no incluya materiales, asesoraremos sin cargo las mejores
+                    opciones de compra y financiación.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h4 class="accordion-header" id="headingOne">
+                <button class="accordion-button btn-info textoNosotros--titulo btn_galeria" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Confianza
+                </button>
+            </h4>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body textoNosotros">
+                    En tiempos difíciles para la seguridad no es grato contratar a cualquier persona en
+                    la casa o departamento propio en donde se encuentran nuestros seres queridos, objetos que valoramos
+                    y
+                    nuestras pertenencias. Cada pintor asignado a una casa de familia, es una persona idónea en el rubro
+                    y
+                    con cierta antigüedad en la empresa. Se le presenta una carpeta al propietario del inmueble con
+                    documentación de la persona que va a trabajar en el lugar.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h4 class="accordion-header" id="headingOne">
+                <button class="accordion-button btn-info textoNosotros--titulo btn_galeria" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Compromiso con el tiempo de ejecución de los trabajos.
+                </button>
+            </h4>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body textoNosotros">
+                    Las fechas de finalización de obra, se respetaran en un 100%. Los trabajos de exteriores quedan
+                    supeditados a las condiciones climatológicas.
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+    <hr>
+
+    <footer>
+        <div class="d-flex justify-content-around">
+            <i class="fa-brands fa-whatsapp fa-beat-fade fa-3x"></i>
+            <i class="fa-brands fa-facebook fa-beat-fade fa-3x"></i>
+            <i class="fa-brands fa-instagram fa-beat-fade fa-3x"></i>
+        </div>
+        <hr>
+        <p class="text-center">Copyright © 2022 Velser Servicios Integrales. Todos los derechos reservados. Desarrollo
+            Guillermo Velasco</p>
+    </footer>
+    <!--CDN Animaciones-->
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!--CDN BS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    </body>
+
+</html>

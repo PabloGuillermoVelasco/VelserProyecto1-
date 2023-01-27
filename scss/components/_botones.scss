@@ -1,0 +1,9 @@
+.btn_color{
+    background-color: map-get($colores_boton, rojo);
+    color: white;
+}
+
+.btn_galeria{
+    border: 3px solid $fifth;
+    border-radius: 5px;
+}

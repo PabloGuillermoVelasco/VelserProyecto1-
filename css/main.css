@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.imgInicio {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border-radius: 5px; }
+
+.border_logos {
+  border-radius: 15px;
+  border: 2px solid #f363f6; }
+
+.imgMarcas {
+  width: 500px;
+  height: 200px; }
+
+.testimonial-card .card-up {
+  height: 120px;
+  overflow: hidden;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem; }
+
+.testimonial-card .avatar {
+  width: 110px;
+  margin-top: -60px;
+  overflow: hidden;
+  border: 3px solid #f363f6;
+  border-radius: 50%; }
+
+.testimonio1 {
+  background-color: #9d789b; }
+
+.testimonio2 {
+  background-color: #7a81a8; }
+
+.testimonio3 {
+  background-color: #6d5b98; }
+
+.photo {
+  width: 500px;
+  height: 450px; }
+
+img {
+  transition: transform 0.8s; }
+
+.photo:hover img {
+  transform: scale(1.15); }
+
+hr {
+  margin: 10px;
+  border: solid 2px white; }
+
+.text-center {
+  margin: 10px; }
+
+.textoNosotros, .textoNosotros--titulo {
+  color: white;
+  padding: 2px;
+  margin: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700; }
+
+.textoNosotros--titulo {
+  font-weight: bold;
+  font-size: large; }
+
+.infoTitulares {
+  background-color: #6d5b98;
+  border-radius: 50px; }
+
+.galeriaContacto {
+  display: flex; }
+
+.card {
+  margin: 15px; }
+
+.card-text {
+  justify-content: center; }
+
+.noticia {
+  margin: 10px;
+  padding: 10px; }
+  .noticia img {
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px; }
+
+body {
+  background-color: #241230; }
+
+h1 {
+  font-family: 'Roboto', sans-serif; }
+
+.btn_color {
+  background-color: red;
+  color: white; }
+
+.btn_galeria {
+  border: 3px solid #f363f6;
+  border-radius: 5px; }

@@ -1,0 +1,33 @@
+hr {
+    margin: 10px;
+    border: $border;
+}
+
+.text-center{
+    margin: 10px;
+}
+
+.textoNosotros{
+    color: white;
+    padding: 2px;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700
+}
+
+.textoNosotros--titulo{
+    @extend .textoNosotros;
+    font-weight: bold;
+    font-size:large;
+}
+
+.infoTitulares{
+    background-color: $fourth;
+    border-radius: 50px;
+}
+
+.galeriaContacto{
+    display: flex;
+}
+
+
